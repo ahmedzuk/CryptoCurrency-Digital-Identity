@@ -1,4 +1,4 @@
-    Numerotation Block System for Cryptocurrency
+Numerotation Block System for Cryptocurrency
     Welcome to the (Digital Crypto Identifier) Numerotation Block System repository, a groundbreaking initiative designed to enhance the transparency, traceability, and artistic potential of cryptocurrency ecosystems.
 
 Project Overview
