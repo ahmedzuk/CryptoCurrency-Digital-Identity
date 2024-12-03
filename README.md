@@ -2,13 +2,13 @@ Numerotation Block System for Cryptocurrency
     Welcome to the (Digital Crypto Identifier) Numerotation Block System repository, a groundbreaking initiative designed to enhance the transparency, traceability, and artistic potential of cryptocurrency ecosystems.
 
 Project Overview
-    The DID system assigns unique identifiers to each unit of cryptocurrency, acting as a digital fingerprint that tracks the lifecycle and ownership of every coin. By operating in a parallel block to existing blockchain networks, DID ensures enhanced safety and privacy     for users while maintaining public access to essential data.
+    The DCI system assigns unique identifiers to each unit of cryptocurrency, acting as a digital fingerprint that tracks the lifecycle and ownership of every coin. By operating in a parallel block to existing blockchain networks, DCI ensures enhanced safety and privacy     for users while maintaining public access to essential data.
 
 Key Features
-    Unique Identifiers: Each cryptocurrency unit receives a DID, enabling precise tracking of its history, including transactions, conversions, and age.
-    Parallel Operation: The DID block runs alongside cryptocurrency blocks, reinforcing security and privacy across networks.
-    Data and Currency Analysis: DIDs unlock valuable insights into currency growth and spread, allowing analysts to trace the journey of individual coins and understand market dynamics.
-    Creative Visualization: Harnessing the power of AI, DIDs can be transformed into artistic representations, such as digital trees and forests that narrate the real stories of coins. These visualizations can enrich the world of NFTs with unique narratives and data-        driven art.
+    Unique Identifiers: Each cryptocurrency unit receives a DCI, enabling precise tracking of its history, including transactions, conversions, and age.
+    Parallel Operation: The DCI block runs alongside cryptocurrency blocks, reinforcing security and privacy across networks.
+    Data and Currency Analysis: DCIs unlock valuable insights into currency growth and spread, allowing analysts to trace the journey of individual coins and understand market dynamics.
+    Creative Visualization: Harnessing the power of AI, DCIs can be transformed into artistic representations, such as digital trees and forests that narrate the real stories of coins. These visualizations can enrich the world of NFTs with unique narratives and data-        driven art.
 Applications
     Enhanced Transparency: By providing a clear record of each coin's history, the system fosters accountability and trust within the cryptocurrency community.
     Artistic Innovation: The ability to visualize and tell the stories of coins can revolutionize how digital assets are perceived, offering new opportunities in the NFT space.
@@ -17,13 +17,13 @@ Applications
     
 All rights reserved. We welcome collaboration and innovation. Whether you're interested in contributing code, providing feedback, or exploring partnership opportunities, we encourage you to engage with us. Open an issue or submit a pull request to join our journey in reshaping the cryptocurrency landscape.
 
-Below is a Python script demonstrating how to generate DIDs for various cryptocurrencies:
+Below is a Python script demonstrating how to generate DCIs for various cryptocurrencies:
 
 
     from datetime import datetime, timedelta
     import random
 
-    def generate_did(currency_symbol, network, status):
+    def generate_DCI(currency_symbol, network, status):
     # Randomize creation time within a specific range
     creation_time = datetime(2024, 12, 12) + timedelta(seconds=random.randint(0, 86400))
     
@@ -37,9 +37,9 @@ Below is a Python script demonstrating how to generate DIDs for various cryptocu
     # Format unit number to be three digits
     unit_number_str = f"{unit_number:03d}"
     
-    # Construct the DID
-    did = f"{currency_symbol}x{network}{time_str}{date_str}{unit_number_str}{status}"
-    return did
+    # Construct the DCI
+    DCI = f"{currency_symbol}x{network}{time_str}{date_str}{unit_number_str}{status}"
+    return DCI
 
     # List of currencies with their symbols and networks
     currencies = [
@@ -50,18 +50,18 @@ Below is a Python script demonstrating how to generate DIDs for various cryptocu
     {"symbol": "usdt", "network": "trc", "address": "TYsNNi5VwmSeBDXZn272iUJ9dVtivVLmmZ"}
     ]
 
-    # Generate and print a random DID for each currency
+    # Generate and print a random DCI for each currency
     for currency in currencies:
     status = random.choice(['a', 'b', 'f'])  # 'a' for active, 'b' for burned, 'f' for frozen
-    did = generate_did(currency["symbol"], currency["network"], status)
-    print(f"Generated DID for {currency['symbol'].upper()} (Address: {currency['address']}): {did}")
+    DCI = generate_DCI(currency["symbol"], currency["network"], status)
+    print(f"Generated DCI for {currency['symbol'].upper()} (Address: {currency['address']}): {DCI}")
 
 # Example Outputs:
-# Generated DID for BTC (Address: 1ASCSMECbxhznAo1ZHfJNnu4PnypXE2aBq): btcxbit134115121224031a
-# Generated DID for ETH (Address: 0x8099a06ec7b535bc52e8c5f5e61c8646b82d92ac): ethxerc20144215121224002f
-# Generated DID for BNB (Address: 0x8099a06ec7b535bc52e8c5f5e61c8646b82d92ac): bnbxbep20134232121224005b
-# Generated DID for TON (Address: UQA6iJoqAaNLML_FneH9EwY8bnzPnYAvO_AjIFc1UNSTppjI): tonxton134232161224066a
-# Generated DID for USDT (Address: TYsNNi5VwmSeBDXZn272iUJ9dVtivVLmmZ): usdtxtrc20134232121224011a
+# Generated DCI for BTC (Address: 1ASCSMECbxhznAo1ZHfJNnu4PnypXE2aBq): btcxbit134115121224031a
+# Generated DCI for ETH (Address: 0x8099a06ec7b535bc52e8c5f5e61c8646b82d92ac): ethxerc20144215121224002f
+# Generated DCI for BNB (Address: 0x8099a06ec7b535bc52e8c5f5e61c8646b82d92ac): bnbxbep20134232121224005b
+# Generated DCI for TON (Address: UQA6iJoqAaNLML_FneH9EwY8bnzPnYAvO_AjIFc1UNSTppjI): tonxton134232161224066a
+# Generated DCI for USDT (Address: TYsNNi5VwmSeBDXZn272iUJ9dVtivVLmmZ): usdtxtrc20134232121224011a
 
 Join us in this exciting venture to redefine the future of cryptocurrencies through transparency, creativity, and collaboration. Let's build a system that not only tracks digital assets but also tells their stories.
 
