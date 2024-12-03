@@ -56,12 +56,12 @@ Below is a Python script demonstrating how to generate DCIs for various cryptocu
     DCI = generate_DCI(currency["symbol"], currency["network"], status)
     print(f"Generated DCI for {currency['symbol'].upper()} (Address: {currency['address']}): {DCI}")
 
-# Example Outputs:
-# Generated DCI for BTC (Address: 1ASCSMECbxhznAo1ZHfJNnu4PnypXE2aBq): btcxbit134115121224031a
-# Generated DCI for ETH (Address: 0x8099a06ec7b535bc52e8c5f5e61c8646b82d92ac): ethxerc20144215121224002f
-# Generated DCI for BNB (Address: 0x8099a06ec7b535bc52e8c5f5e61c8646b82d92ac): bnbxbep20134232121224005b
-# Generated DCI for TON (Address: UQA6iJoqAaNLML_FneH9EwY8bnzPnYAvO_AjIFc1UNSTppjI): tonxton134232161224066a
-# Generated DCI for USDT (Address: TYsNNi5VwmSeBDXZn272iUJ9dVtivVLmmZ): usdtxtrc20134232121224011a
+    # Example Outputs:
+    # Generated DCI for BTC (Address: 1ASCSMECbxhznAo1ZHfJNnu4PnypXE2aBq): btcxbit134115121224031a
+    # Generated DCI for ETH (Address: 0x8099a06ec7b535bc52e8c5f5e61c8646b82d92ac): ethxerc20144215121224002f
+    # Generated DCI for BNB (Address: 0x8099a06ec7b535bc52e8c5f5e61c8646b82d92ac): bnbxbep20134232121224005b
+    # Generated DCI for TON (Address: UQA6iJoqAaNLML_FneH9EwY8bnzPnYAvO_AjIFc1UNSTppjI): tonxton134232161224066a
+    # Generated DCI for USDT (Address: TYsNNi5VwmSeBDXZn272iUJ9dVtivVLmmZ): usdtxtrc20134232121224011a
 
 Join us in this exciting venture to redefine the future of cryptocurrencies through transparency, creativity, and collaboration. Let's build a system that not only tracks digital assets but also tells their stories.
 
