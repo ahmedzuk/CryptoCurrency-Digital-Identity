@@ -1,5 +1,5 @@
-DID: Numerotation Block System for Cryptocurrency
-    Welcome to the DID (Digital Identifier) Numerotation Block System repository, a groundbreaking initiative designed to enhance the transparency, traceability, and artistic potential of cryptocurrency ecosystems.
+    Numerotation Block System for Cryptocurrency
+    Welcome to the (Digital Crypto Identifier) Numerotation Block System repository, a groundbreaking initiative designed to enhance the transparency, traceability, and artistic potential of cryptocurrency ecosystems.
 
 Project Overview
     The DID system assigns unique identifiers to each unit of cryptocurrency, acting as a digital fingerprint that tracks the lifecycle and ownership of every coin. By operating in a parallel block to existing blockchain networks, DID ensures enhanced safety and privacy     for users while maintaining public access to essential data.
