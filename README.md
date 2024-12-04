@@ -29,4 +29,5 @@ All rights reserved. We welcome collaboration and innovation. Whether you're int
 
 Join us in this exciting venture to redefine the future of cryptocurrencies through transparency, creativity, and collaboration. Let's build a system that not only tracks digital assets but also tells their stories.
 
-
+jetton address : EQANi6L_PpMLuR2NA_JEdmtLCkXhxmZURk7z-Fsw5Fv4Tqyo
+ton explorer : https://tonscan.org/jetton/EQANi6L_PpMLuR2NA_JEdmtLCkXhxmZURk7z-Fsw5Fv4Tqyo
