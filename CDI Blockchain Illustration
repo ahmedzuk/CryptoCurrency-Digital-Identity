@@ -11,7 +11,7 @@ Independent Blockchains:
        |                 |                 |
        v                 v                 v
 +---------------------------------------------------------------+
-|          Parallel Blockchain (CID Creator)                    |
+|          Parallel Blockchain (CDI Creator)                    |
 |  +---------------------+   +---------------------+            |
 |  | Block A (BTCxBTC1)  |   | Block B (TONxTON1)  |            |
 |  +---------------------+   +---------------------+            |
@@ -26,10 +26,13 @@ Independent Blockchains:
 |     +-----------------------------------------------+         |
 |     | Central Node (Circulation Manager)            |         |
 |     |  +-----------------------------------------+  |         |
-|     |  | Coin Locations:                         |  |         |
-|     |  | BTCxBTC1 -> Wallet A                    |  |         |
-|     |  | TONxTON1 -> Wallet B                    |  |         |
-|     |  | ETHxETH1 -> Wallet C                    |  |         |
+|     |  | Coin Movement Log:                      |  |         |
+|     |  | BTCxBTC1 -> Wallet A -> Wallet B        |  |         |
+|     |  |   Date: 2024-12-01, Time: 10:00 AM      |  |         |
+|     |  | TONxTON1 -> Wallet B -> Wallet C        |  |         |
+|     |  |   Date: 2024-12-02, Time: 02:30 PM      |  |         |
+|     |  | ETHxETH1 -> Wallet C -> Wallet D        |  |         |
+|     |  |   Date: 2024-12-03, Time: 11:15 AM      |  |         |
 |     +-----------------------------------------------+         |
 +---------------------------------------------------------------+
 
@@ -53,7 +56,7 @@ Circulation Model:
                                     |
                                 [Wallet J]
 
-CID Circulation:
+CDI Circulation:
       [Wallet A] <--- BTCxBTC1 ---> [Wallet B]
           |                                      |
           v                                      v
