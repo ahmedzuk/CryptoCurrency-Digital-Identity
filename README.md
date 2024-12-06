@@ -43,3 +43,7 @@ Let's make cryptocurrency safer, more transparent, and artistically vibrant with
 check explaination 
 
 https://www.youtube.com/watch?v=dBWLzpCOjVw
+
+for collab reach us here :
+
+ahmedzuk.e@gmail.com
