@@ -39,3 +39,7 @@ Jetton Address: EQANi6L_PpMLuR2NA_JEdmtLCkXhxmZURk7z-Fsw5Fv4Tqyo
 TON Explorer: https://tonscan.org/jetton/EQANi6L_PpMLuR2NA_JEdmtLCkXhxmZURk7z-Fsw5Fv4Tqyo
 
 Let's make cryptocurrency safer, more transparent, and artistically vibrant with CDI!
+
+check explaination 
+
+https://www.youtube.com/watch?v=dBWLzpCOjVw
