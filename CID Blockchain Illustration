@@ -1,0 +1,69 @@
+# Parallel Blockchain System
+
+## Illustration
+
+```plaintext
+Independent Blockchains:
+     +---------+       +---------+       +---------+
+     |  BTC 1  |       |  TON 1  |       |  ETH 1  |
+     +---------+       +---------+       +---------+
+       | BTCxBTC1        | TONxTON1        | ETHxETH1
+       |                 |                 |
+       v                 v                 v
++---------------------------------------------------------------+
+|          Parallel Blockchain (CID Creator)                    |
+|  +---------------------+   +---------------------+            |
+|  | Block A (BTCxBTC1)  |   | Block B (TONxTON1)  |            |
+|  +---------------------+   +---------------------+            |
+|  | Coin ID: BTCxBTC1   |   | Coin ID: TONxTON1   |            |
+|  +---------------------+   +---------------------+            |
+|  | Block C (ETHxETH1)  |                                    |
+|  +---------------------+                                    |
+|  | Coin ID: ETHxETH1   |                                    |
+|  +---------------------+                                    |
+|          |                               |                    |
+|          v                               v                    |
+|     +-----------------------------------------------+         |
+|     | Central Node (Circulation Manager)            |         |
+|     |  +-----------------------------------------+  |         |
+|     |  | Coin Locations:                         |  |         |
+|     |  | BTCxBTC1 -> Wallet A                    |  |         |
+|     |  | TONxTON1 -> Wallet B                    |  |         |
+|     |  | ETHxETH1 -> Wallet C                    |  |         |
+|     +-----------------------------------------------+         |
++---------------------------------------------------------------+
+
+Circulation Model:
+                            [Central Node]
+                         (Circulation Hub)
+                                    |
+               +--------------------+--------------------+
+               |                    |                    |
+          [Wallet A]           [Wallet B]           [Wallet C]
+               |                    |                    |
+               +--------------------+--------------------+
+               |                    |                    |
+          [Wallet D]           [Wallet E]           [Wallet F]
+               |                    |                    |
+               +--------------------+--------------------+
+               |                    |                    |
+          [Wallet G]           [Wallet H]           [Wallet I]
+               |                    |                    |
+               +--------------------+--------------------+
+                                    |
+                                [Wallet J]
+
+CID Circulation:
+      [Wallet A] <--- BTCxBTC1 ---> [Wallet B]
+          |                                      |
+          v                                      v
+      [Wallet C] <--- TONxTON1 ---> [Wallet D]
+          |                                      |
+          v                                      v
+      [Wallet E] <--- ETHxETH1 ---> [Wallet F]
+          |                                      |
+          v                                      v
+      [Wallet G] <--- BTCxBTC2 ---> [Wallet H]
+          |                                      |
+          v                                      v
+      [Wallet I] <--- ETHxETH2 ---> [Wallet J]
