@@ -1,0 +1,57 @@
++-----------------------------+     +-----------------------------+
+|                             |     |                             |
+|  Blockchain Network 1       |     |  Blockchain Network 2       |
+|  (e.g., Ethereum)           |     |  (e.g., Bitcoin)            |
+|                             |     |                             |
++-----------------------------+     +-----------------------------+
+            |                               |
+            v                               v
++---------------------------------------------------------------+
+|                                                               |
+|  Distributed Coin/Token Detection System                      |
+|  - Nodes deployed on multiple networks                        |
+|  - Detects new coins/tokens                                   |
+|  - Gathers coin addresses                                     |
+|    (e.g., 0xA1B2C3D4E5F6...)                                  |
+|                                                               |
++---------------------------------------------------------------+
+            |                               |
+            v                               v
++---------------------------------------------------------------+
+|                                                               |
+|  Docker (Distributed Virtual Waiting Room)                    |
+|  - Secures detected coins/tokens                              |
+|  - Queues for mining                                          |
+|  - Uses encryption and access controls                        |
+|                                                               |
++---------------------------------------------------------------+
+            |                               |
+            v                               v
++---------------------------------------------------------------+
+|                                                               |
+|  Distributed Mining Network                                   |
+|  - Miners validate and process coins/tokens                   |
+|  - Employ consensus (e.g., Proof of Stake)                    |
+|  - Generate unique identifiers                                |
+|    (e.g., Coin ID: 123ABC, Reward ID: 789XYZ)                 |
+|                                                               |
++---------------------------------------------------------------+
+            |                               |
+            v                               v
++---------------------------------------------------------------+
+|                                                               |
+|  CDI Blockchain Integration                                   |
+|  - Adds validated coins/tokens                                |
+|  - Ensures transparency and traceability                      |
+|                                                               |
++---------------------------------------------------------------+
+            |                               |
+            v                               v
++---------------------------------------------------------------+
+|                                                               |
+|  Miner Rewards Distribution                                   |
+|  - CDI coins issued as rewards                                |
+|  - Sent to miner addresses                                    |
+|    (e.g., 1F2E3D4C5B6A...)                                    |
+|                                                               |
++---------------------------------------------------------------+
